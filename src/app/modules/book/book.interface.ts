@@ -1,7 +1,7 @@
   
-  //creating a interface
+  //Task 1: Create a MongoDB interface
 
-  export  interface IUser{
+  export  interface IBook{
        title: string,
         author: string,
         genre: string,
@@ -14,5 +14,5 @@
         comment: string,
         rating: number,
         price: string,
-
+     featured?: string,
    }
